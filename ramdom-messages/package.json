@@ -1,5 +1,5 @@
 {
-  "name": "ramdom-messages",
+  "name": "ramdom-messages-by-galeed-gutierrez",
   "version": "1.0.0",
   "description": "Random de mensaejes.",
   "main": "src/index.js",
@@ -14,7 +14,7 @@
   "author": "Galeed Gutierrez <galeedeveloper@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
   "preferGlobal": true
 }

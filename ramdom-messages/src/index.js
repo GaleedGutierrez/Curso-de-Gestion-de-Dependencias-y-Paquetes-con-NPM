@@ -1,5 +1,4 @@
 const messages = [
-    'Hola',
     'Ana',
     'Nicolay',
     'Yesica',
@@ -9,11 +8,13 @@ const messages = [
     'Enrique',
     'Luisa',
     'Aaron',
+    'Carolina',
+    'Paulina',
 ];
 
-const randomMsg = (messages) => {
-    const messages = messages[Math.floor(Math.random() * messages.length)];
-    console.log(messages);
+const randomMsg = () => {
+    const message = messages[Math.floor(Math.random() * messages.length)];
+    console.log(message);
 }
 
 module.exports = { randomMsg };

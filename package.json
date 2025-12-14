@@ -29,6 +29,6 @@
     "webpack": "^5.70.0"
   },
   "optionalDependencies": {
-    "eslint": "^8.11.0"
+    "eslint": "^8.57.1"
   }
 }
